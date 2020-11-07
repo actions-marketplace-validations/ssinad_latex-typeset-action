@@ -1,3 +1,4 @@
 #!/bin/sh
 
-python3 -m texliveonfly -cd -pdf -silent -usepretex='\providecommand{\finalOption}{final}' $1.tex
+alias python="/usr/bin/python3"
+texliveonfly -cd -pdf -silent -usepretex='\providecommand{\finalOption}{final}' $1.tex
