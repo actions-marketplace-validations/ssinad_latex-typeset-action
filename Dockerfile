@@ -1,6 +1,6 @@
 FROM pandoc/alpine-latex:2.11.0.4
 
-RUN RUN apk add --no-cache python3 py3-pip
+RUN apk add --no-cache python3 py3-pip
 
 RUN tlmgr install latexmk texliveonfly
 
