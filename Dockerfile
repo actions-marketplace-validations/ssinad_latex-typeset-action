@@ -5,7 +5,7 @@ RUN apt-get install software-properties-common && \
     apt-get update && \ 
     apt-get install python3.9
 
-RUN tlmgr install latexmk texliveonfly
+RUN tlmgr install latexmk texliveonfly biblatex biblatex-apa biblatex-ieee biblatex-nature biber babel
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
