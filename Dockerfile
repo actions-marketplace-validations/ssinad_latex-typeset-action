@@ -1,6 +1,9 @@
-FROM pandoc/alpine-latex:2.11.0.4
+FROM pandoc/ubuntu-latex:2.11.1.1
 
-RUN apk add --no-cache python3 py3-pip
+RUN apt-get install software-properties-common && \ 
+    add-apt-repository ppa:deadsnakes/ppa && \ 
+    apt-get update && \ 
+    apt-get install python3.9
 
 RUN tlmgr install latexmk texliveonfly
 
