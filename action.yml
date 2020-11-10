@@ -1,10 +1,10 @@
 name: 'typeset'
 inputs:
-  file:  # id of input
+  filename:  # id of input
     required: true
-    default: 'hello_world'
+    # default: 'hello_world.tex'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.file }}
+    - ${{ inputs.filename }}
