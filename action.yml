@@ -1,8 +1,7 @@
 name: 'typeset'
 inputs:
-  filename:  # id of input
+  filename:
     required: true
-    # default: 'hello_world.tex'
 runs:
   using: 'docker'
   image: 'Dockerfile'
