@@ -1,4 +1,5 @@
-name: 'typeset'
+name: 'latex-typeset-action'
+description: 'A GitHub action for typesetting latex projects'
 inputs:
   filename:
     required: true
