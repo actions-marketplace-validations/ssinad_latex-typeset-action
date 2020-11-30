@@ -1,4 +1,4 @@
-FROM ssinad/docker-images/latex-image:latest
+FROM ssinad/latex-image:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
