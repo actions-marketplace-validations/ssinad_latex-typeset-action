@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/ssinad/docker-images/latex-image:ubuntu
+FROM ssinad/docker-images/latex-image:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
