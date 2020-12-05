@@ -2,7 +2,7 @@
 ## Example:
 ```yaml
 name: Job name
-    uses: ssinad/typeset-action@v0.4.3
+    uses: ssinad/typeset-action@v0.4
     with:
       filename: 'hello_world.tex'
 ```
