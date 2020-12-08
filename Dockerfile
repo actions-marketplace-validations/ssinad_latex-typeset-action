@@ -1,4 +1,4 @@
-FROM ssinad/latex-image:ubuntu-2.11.1.1
+FROM ssinad/latex-ubuntu-image:2.11.1.1
 
 COPY entrypoint.sh /entrypoint.sh
 
