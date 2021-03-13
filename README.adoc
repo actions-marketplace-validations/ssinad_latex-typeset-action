@@ -1,5 +1,9 @@
 = GitHub Action for Typesetting LaTeX Projects
+
+video::CLUfa8qPhf0[youtube]
+
 == Example
+
 [source,yaml]
 ----
 name: Job name
