@@ -1,8 +1,9 @@
-# GitHub Action for Typesetting LaTeX Projects
-## Example:
-```yaml
+= GitHub Action for Typesetting LaTeX Projects
+== Example
+[source,yaml]
+----
 name: Job name
     uses: ssinad/typeset-action@v0.4
     with:
       filename: 'hello_world.tex'
-```
+----
