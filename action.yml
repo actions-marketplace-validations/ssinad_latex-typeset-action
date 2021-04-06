@@ -6,6 +6,6 @@ inputs:
 runs:
   using: 'docker'
   image: 'docker://ssinad/latex-ubuntu:latest'
-  entrypoint: 'entrypoint.sh'
+  entrypoint: '/github/workspace/entrypoint.sh'
   args:
     - ${{ inputs.filename }}
