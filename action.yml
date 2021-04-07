@@ -5,7 +5,7 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'docker://ssinad/latex-ubuntu:latest'
-  entrypoint: "sh -c $(cat entrypoint.sh)"]
+  image: 'Dockerfile'
+  entrypoint: "/entrypoint.sh"
   args:
     - ${{ inputs.filename }}
