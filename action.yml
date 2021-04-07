@@ -6,6 +6,9 @@ inputs:
 runs:
   using: 'docker'
   image: 'docker://ssinad/latex-ubuntu:latest'
-  entrypoint: ["sh", "-c", "$(cat entrypoint.sh)"]
+  entrypoint:
+    - "sh"
+    - "-c"
+    - "$(cat entrypoint.sh)"
   args:
     - ${{ inputs.filename }}
