@@ -7,7 +7,7 @@ video::CLUfa8qPhf0[youtube]
 [source,yaml]
 ----
 name: Job name
-    uses: ssinad/typeset-action@v0.4
+    uses: ssinad/typeset-action@v0.5
     with:
       filename: 'hello_world.tex'
 ----
