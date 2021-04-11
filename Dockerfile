@@ -1,4 +1,4 @@
-FROM ssinad/latex-ubuntu:latest
+FROM ssinad/latex-debian:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
